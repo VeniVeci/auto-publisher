@@ -1,0 +1,13 @@
+{
+  "outputDir": "outputs",
+  "wechat": {
+    "appId": "YOUR_APP_ID",
+    "appSecret": "YOUR_APP_SECRET",
+    "defaultAuthor": "YOUR_AUTHOR_NAME",
+    "defaultNeedOpenComment": 1,
+    "defaultOnlyFansCanComment": 0
+  },
+  "xhs": {
+    "creatorUrl": "https://creator.xiaohongshu.com/publish/publish"
+  }
+}

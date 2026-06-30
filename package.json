@@ -1,0 +1,15 @@
+{
+  "name": "auto-publisher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node src/cli.js prepare examples/demo.md",
+    "prepare": "node src/cli.js prepare examples/demo.md",
+    "publish:wechat:dry": "node src/cli.js publish examples/demo.md --platform wechat --dry-run",
+    "publish:xhs:dry": "node src/cli.js publish examples/demo.md --platform xhs --dry-run"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
