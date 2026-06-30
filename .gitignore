@@ -1,6 +1,7 @@
 node_modules/
 config/config.json
-outputs/
+outputs/*
+!outputs/自我进化论-*/
 .env
 *.log
 .DS_Store
